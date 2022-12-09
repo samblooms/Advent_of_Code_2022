@@ -17,3 +17,4 @@ elfs.sort((a, b) => b - a);
 const topThree = elfs.slice(0, 3);
 const topThreeSum = topThree.reduce((a, b) => a + b, 0);
 console.log("Top 3 elves calorie total: " + topThreeSum);
+  
